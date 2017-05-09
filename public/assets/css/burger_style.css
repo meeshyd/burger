@@ -1,0 +1,36 @@
+h1 {
+	margin: 10px 0;
+}
+
+button {
+	margin-bottom: 10px;
+}
+html, body {
+height: 100vh;
+}
+body {
+	background-image: url('/assets/img/geometry.png');
+	background-repeat: repeat;
+}
+
+
+.input-field label, input[type=text] {
+    color: #fff !important;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+   	color: #fff;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #fff;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+   color: #fff;
+}
+
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+    border-bottom: 1px solid #fff;
+}
