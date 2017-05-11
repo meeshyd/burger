@@ -50,3 +50,7 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
   padding-top: 50px;
   background-color: transparent;
 }
+
+.row .add-burger {
+  float: none;
+}
