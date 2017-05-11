@@ -4,7 +4,7 @@
 
 Burger logger app using MySQL, Node, Express, Handlebars and ORM. The application follows the MVC design pattern: using Node and MySQL to query and route data and Handlebars to generate HTML.
 
-[See it in action!](https://tranquil-retreat-50930.herokuapp.com/)
+[See it in action!](https://burger-burger.herokuapp.com/)
 
 ![picture alt](burger4README.png "burger image")
 
